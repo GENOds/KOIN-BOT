@@ -1,0 +1,12 @@
+app = "koin-bot-granada"
+primary_region = "mad"
+
+[build]
+
+[processes]
+  app = "python main.py"
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 256
